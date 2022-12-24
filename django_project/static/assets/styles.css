@@ -1,5 +1,12 @@
-body{
-    background-color:beige;
+.homepage {
+  background-color: lightblue;
+}
 
+.about {
+  background-color: lightpink;
+}
+
+.articles {
+  background-color: beige;
 }
 
