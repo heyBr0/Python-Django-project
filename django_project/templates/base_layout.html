@@ -6,11 +6,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Article List</title>
+    <title>Tactical Games</title>
     <link rel="stylesheet" href="../static/assets/styles.css">
   </head>
   <div class="wrapper">
-    <h1><a href="{% url 'articles:list' %}"><img src="{% static '99728716.png' %}" alt="articles link" /></a></h1>
+    <h1><a href="{% url 'articles:list' %}"><img src="{% static '../static/assets/megaman.jpeg' %}" alt="articles link" /></a></h1>
+
+   
     {% block content %}
     {% endblock %}
   </div>
